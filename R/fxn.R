@@ -1,2 +1,2 @@
-foo <- function(x)
-  x
+foo <- function(x, y)
+  x * y
