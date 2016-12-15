@@ -1,4 +1,6 @@
 # fossil_sampling
-This repository contains sims to test methods for inferring species selection...
 
 First chapter....
+
+This repository contains sims to test methods for inferring species selection and something
+
