@@ -1,1 +1,2 @@
-foo <- function()
+foo <- function(w)
+  log(w)
