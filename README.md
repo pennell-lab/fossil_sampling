@@ -1,2 +1,2 @@
 # fossil_sampling
-Analysis of fossil bleh bleh
+This repository contains sims to test methods for inferring species selection...
