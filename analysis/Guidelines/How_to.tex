@@ -1,0 +1,86 @@
+
+% ---------------------------------------------------------------------------- %
+  \documentclass[12pt,twoside,a4paper,pdftex]{scrbook}
+
+% ---------------------------------------------------------------------------- %
+  % Pacotes 
+% ,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm % old definition of the margins....
+\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry} 
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp} 
+\usepackage{setspace} 
+\usepackage{graphicx} 
+\usepackage{color}
+\usepackage{nameref}
+\usepackage{hyperref}
+\usepackage{layout} 
+\usepackage{rotating}
+\usepackage{amsthm}
+\usepackage{amsmath}
+
+
+
+\usepackage{natbib} % comando para poder citar authordate. permite o uso de citep, citet, etc
+
+
+\definecolor{graytab}{gray}{0.85}
+
+
+\begin{document}
+\section{Examples of fossil record simulations}
+\subsection{From \citet{Silvestro14}}
+
+Simulated data sets were generated based on six patterns of species diversification chosen to yield scenarios of varying species richness commonly observed in empirical data (Fig. 2 and Table 1; Sepkoski 1981):
+
+\begin{itemize}
+\item I. expanding diversity with constant speciation and extinction rates ($ \lambda > \mu $);
+\item II. expanding diversity followed by a decline with all taxa going extinct before the present ($ \lambda_1 > \mu_1, \lambda_2 < \mu_2 $);
+\item III. expanding and then declining diversity followed by turnover at equilibrium ($ \lambda_1 > \mu_1, \lambda_2 < \mu_2, \lambda_3 = \mu_3 $);
+\item IV. expanding diversity followed by turnover at equilibrium due to a decrease in speciation rate ($ \lambda_1 > \mu_1, \lambda_2 = \mu_2 $);
+\item V. expanding diversity followed by turnover at equilibrium due to a decrease in speciation rate and increase in extinction rate ($ \lambda_1 > \mu_1, \lambda_2 = \mu_2 $); and
+\item VI. constant speciation rate and a mass extinction event ($ \lambda_1 > \mu_1, \lambda_2 << \mu_2, \lambda_1 > \mu_1 $).
+\end{itemize}
+
+Based on the complete birth–death realizations, fossil occurrences were simulated for each species. Along each lineage i a number of occurrences Ki was derived from a Poisson distribution with rate parameter qPOI = q(si − ei ) where q is the preservation rate (cf. Equation 1), and si,ei are the true times of speciation and extinction. The preservation rate was assumed q = 3 unless stated otherwise. A number of fossils Ki were then randomly drawn from the PERT distribution for all species, resulting in a synthetic data set that mimics the fossil record. The shape parameter of the PERT distribution was assumed to be l = 4 (as in Equation 3) unless stated otherwise. The number of occurrences K depended only on the preservation rate q and on the species lifespan, i.e., it was not conditioned on being greater than 0. The lineages without a fossil record (K = 0) were disregarded in the analyses because of the condition stated in Equation (4). All extant species were then truncated at time 0 (i.e., the present). The number of extant species based on the complete birth–death realization (NOBS) was kept to construct the hyperprior of Equations (12–15).
+
+
+\subsection{From \cite{Foote00}}
+
+Preservation can be modeled in a number of realistic ways that include variation in time and space (Shaw 1964; Koch and Morgan 1988; Marshall 1994; Holland 1995; Holland and Patzkowsky 1999; Weiss and Marshall 1999). As a heuristic tool for understanding the behavior of diversity and rate measures, it is convenient to focus on the temporal aspect and to start by assuming time-homogeneous fossil preservation at a constant per-capita rate r per Lmy (Paul 1982, 1988; Pease 1985; Strauss and Sadler 1989; Marshall 1990; Foote and Raup 1996; Solow and Smith 1997; Foote 1997). This simple assumption will be relaxed below. In the time-homogeneous case, the proportion of lineages preserved is equal to r/(q 1 r) if p 5 q and if the fossil record is of effectively infinite length (Pease 1985; Solow and Smith 1997) (see Edge Effects, below). It is therefore natural for many problems to express preservation rate as a multiple of q. Throughout this discussion I will assume taxonomic homogeneity of taxonomic and pres- ervational rates. For modeling, this assumption can easily be relaxed by performing calculations for an arbitrary number of rate clas- ses and combining the results (see Buzas et al. 1982, Koch and Morgan 1988, Holland 1995, Holland and Patzkowsky 1999, and Weiss and Marshall 1999 for explicit treatments of taxo- nomic heterogeneity of preservation)
+
+
+
+\section{Other studies comparing methods in the FR}
+
+See:
+
+\begin{itemize} 
+\item \cite{Alroy00}
+\item \cite{Alroy10}
+\item \cite{Alroy14}
+\end{itemize}
+
+
+
+
+% ---------------------------------------------------------------------------- %
+% Bibliografia
+\singlespacing 
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
