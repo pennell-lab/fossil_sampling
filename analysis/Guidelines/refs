@@ -1,0 +1,56 @@
+% This file was created with JabRef 2.11.
+% Encoding: UTF8
+
+
+@Article{Alroy00,
+  Title                    = {New methods for quantifying macroevolutionary patterns and processes},
+  Author                   = {John Alroy},
+  Journal                  = {Paleobiology},
+  Year                     = {2000}
+}
+
+@InBook{Alroy10,
+  Title                    = {QUANTITATIVE METHODS IN PALEOBIOLOGY},
+  Author                   = {John Alroy},
+  Chapter                  = {FAIR SAMPLING OF TAXONOMIC RICHNESS AND UNBIASED ESTIMATION OF ORIGINATION AND EXTINCTION RATES},
+  Editor                   = {JOHN ALROY AND GENE HUNT},
+  Pages                    = {55-80},
+  Publisher                = {The Paleontological Society},
+  Year                     = {2010}
+}
+
+@Article{Alroy14,
+  Title                    = {Accurate and precise estimates of origination and extinction rates},
+  Author                   = {John Alroy},
+  Journal                  = {Paleobiology},
+  Year                     = {2014}
+}
+
+@Article{Foote00,
+  Title                    = {Origination and extinction components of taxonomic diversity: general problems},
+  Author                   = {Mike Foote},
+  Journal                  = {Paleobiology},
+  Year                     = {2000},
+  Number                   = {sp4},
+  Pages                    = {74-102},
+  Volume                   = {26},
+  Doi                      = {/10.1666/0094-8373(2000)26[74:OAECOT]2.0.CO;2},
+  File                     = {:Papers/Foote_2000 - Taxonomic diversity.pdf:PDF}
+}
+
+@Article{Silvestro14,
+  Title                    = {Bayesian Estimation of Speciation and Extinction from Incomplete Fossil Occurrence Data},
+  Author                   = {Silvestro, D. and Schnitzler, J. and Liow, L. H. and Antonelli, A. and Salamin, N.},
+  Journal                  = {Systematic Biology},
+  Year                     = {2014},
+  Month                    = {Feb},
+  Number                   = {0},
+  Pages                    = {1-19},
+  Volume                   = {0},
+  Doi                      = {10.1093/sysbio/syu006},
+  File                     = {:Papers/Silvestro_et_al_2014 - Bayesian analysis from incomplete fossil occurrence.pdf:PDF},
+  ISSN                     = {1076-836X},
+  Publisher                = {Oxford University Press (OUP)},
+  Url                      = {http://dx.doi.org/10.1093/sysbio/syu006}
+}
+
